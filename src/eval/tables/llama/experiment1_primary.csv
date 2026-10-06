@@ -1,0 +1,7 @@
+model,corpus_size,selected_epoch,n_evaluated,acc_at_1,acc_at_5,acc_at_10,acc_at_100,mrr
+Llama on Llama watermark,100,60,100,0.96,0.99,0.99,1.0,0.972121212121212
+Llama on Llama watermark,500,80,500,0.932,0.964,0.976,0.992,0.9474339221965766
+Llama on Llama watermark,1000,85,1000,0.89,0.931,0.95,0.98,0.9092145404470166
+Llama on Llama watermark,5000,95,1000,0.627,0.696,0.729,0.826,0.6604547721268406
+Llama on Llama watermark,10000,100,1000,0.403,0.469,0.493,0.593,0.43361433425538853
+Llama on Llama watermark,50000,50,1000,0.004,0.006,0.006,0.012,0.004854388228634867

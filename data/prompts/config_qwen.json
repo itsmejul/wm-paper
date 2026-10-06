@@ -1,0 +1,8 @@
+{
+  "watermark_config": "data/t_ws/config_qwen.json",
+  "watermarked_texts": "data/t_ws/qwen/combined_t_ws.json",
+  "output_dir": "data/prompts/qwen",
+  "reuse_prompts_dir": "data/prompts/shared",
+  "shared_prompts_dir": "data/prompts/shared",
+  "work_dir": "src/data_creation/_batch_work_qwen"
+}

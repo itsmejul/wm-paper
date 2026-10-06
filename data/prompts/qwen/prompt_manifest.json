@@ -1,0 +1,20 @@
+{
+  "watermark_config": "data/t_ws/config_qwen.json",
+  "watermark_model": "Qwen/Qwen3.5-9B",
+  "watermarked_texts": "data/t_ws/qwen/combined_t_ws.json",
+  "generated_tasks": [
+    "prefix"
+  ],
+  "generated_files": [
+    "prefix_10.json"
+  ],
+  "reuse_prompts_dir": "data/prompts/shared",
+  "reused_files": [
+    "titles_1.json",
+    "titles_2.json",
+    "titles_3.json",
+    "questions.json"
+  ],
+  "question_source": "original unwatermarked abstracts",
+  "title_source": "original titles"
+}

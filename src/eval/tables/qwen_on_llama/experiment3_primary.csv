@@ -1,0 +1,13 @@
+model,condition,prompt_type,corpus_size,selected_epoch,n_evaluated,acc_at_1
+Qwen on Llama watermark,train,train_questions,100,100,100,0.96
+Qwen on Llama watermark,train,train_questions,500,100,500,0.854
+Qwen on Llama watermark,train,train_questions,1000,95,1000,0.784
+Qwen on Llama watermark,train,train_questions,5000,100,1000,0.158
+Qwen on Llama watermark,train,train_questions,10000,100,1000,0.024
+Qwen on Llama watermark,train,train_questions,50000,90,1000,0.001
+Qwen on Llama watermark,held-out,held_out_questions,100,45,100,0.04
+Qwen on Llama watermark,held-out,held_out_questions,500,60,500,0.008
+Qwen on Llama watermark,held-out,held_out_questions,1000,25,1000,0.003
+Qwen on Llama watermark,held-out,held_out_questions,5000,10,1000,0.001
+Qwen on Llama watermark,held-out,held_out_questions,10000,85,1000,0.002
+Qwen on Llama watermark,held-out,held_out_questions,50000,35,1000,0.001

@@ -1,0 +1,6 @@
+{
+    "max_response_tokens": 512, 
+    "temperature" : 0.0,
+    "top_p": 0.9,
+    "do_sample" : false
+}

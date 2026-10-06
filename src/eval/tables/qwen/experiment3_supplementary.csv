@@ -1,0 +1,13 @@
+model,condition,prompt_type,corpus_size,selected_epoch,n_evaluated,bm25_postgen_acc_at_1,bm25_postret_acc_at_1,correct_q,margin,semantic_similarity,bertscore_f1,rouge2_bigram_overlap,normalized_lcs,normalized_rank,normalized_length
+Qwen on Qwen watermark,train,train_questions,100,100,100,,,0.46077165186405183,0.29977169804275033,,,,,0.05299999999999999,
+Qwen on Qwen watermark,train,train_questions,500,100,500,,,0.3858448365190998,0.20224762862920762,,,,,0.05314399999999999,
+Qwen on Qwen watermark,train,train_questions,1000,100,1000,,,0.3097383943637833,0.14763132026046513,,,,,0.08929299999999998,
+Qwen on Qwen watermark,train,train_questions,5000,95,1000,,,0.06885541902040132,0.030721890583634375,,,,,0.371765,
+Qwen on Qwen watermark,train,train_questions,10000,95,1000,,,0.014235745618119836,0.016606988817453386,,,,,0.45666139999999994,
+Qwen on Qwen watermark,train,train_questions,50000,10,1000,,,-0.0044994950513355435,0.01705551616847515,,,,,0.5148296,
+Qwen on Qwen watermark,held-out,held_out_questions,100,15,100,,,0.005147200366482138,0.02367802545428276,,,,,0.48440000000000005,
+Qwen on Qwen watermark,held-out,held_out_questions,500,15,500,,,0.00019169713277369737,0.02027306731045246,,,,,0.4925799999999999,
+Qwen on Qwen watermark,held-out,held_out_questions,1000,35,1000,,,0.0007783717450220137,0.018624382607638837,,,,,0.498166,
+Qwen on Qwen watermark,held-out,held_out_questions,5000,20,1000,,,-0.002125418984331191,0.017792059302330018,,,,,0.5142912,
+Qwen on Qwen watermark,held-out,held_out_questions,10000,30,1000,,,0.0005673325168900192,0.016232252538204192,,,,,0.49209519999999995,
+Qwen on Qwen watermark,held-out,held_out_questions,50000,95,1000,,,-0.000671736565651372,0.015249238654971123,,,,,0.50094118,

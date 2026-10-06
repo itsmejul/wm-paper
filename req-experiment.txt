@@ -1,0 +1,23 @@
+# Environment for all maintained training and evaluation pipelines.
+# Unsloth's published metadata currently requires Transformers <=5.5.0.
+unsloth==2026.9.5
+unsloth-zoo==2026.9.5
+transformers==5.5.0
+waterfall==0.3.4
+torch==2.9.1
+torchvision==0.24.1
+xformers==0.0.33.post2
+torchao==0.14.1
+accelerate==1.13.0
+sentence-transformers==6.0.1
+datasets==4.3.0
+peft==0.18.1
+trl==0.24.0
+numpy>=1.25,<2.5
+scipy>=1.13,<2
+bert_score==0.3.13
+rank_bm25==0.2.2
+matplotlib
+pandas
+seaborn
+ipykernel

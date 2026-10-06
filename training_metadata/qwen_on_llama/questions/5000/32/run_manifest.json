@@ -1,0 +1,62 @@
+{
+  "profile": "qwen_on_llama",
+  "watermark_source": "llama",
+  "detector_model": "meta-llama/Llama-3.1-8B-Instruct",
+  "legacy_fourier": true,
+  "config": {
+    "train_model": "Qwen/Qwen3.5-9B",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "in_proj_qkv",
+      "in_proj_z",
+      "in_proj_a",
+      "in_proj_b",
+      "out_proj"
+    ],
+    "rank": 16,
+    "lora_alpha": 16,
+    "lora_dropout": 0.0,
+    "bias": "none",
+    "epochs": 100,
+    "save_every_n_epochs": 5,
+    "learning_rate": 0.0002,
+    "batch_size": 32,
+    "n_samples": 5000,
+    "micro_batch_size": 16,
+    "eval_batch_size": 32,
+    "inference_batch_size": 64,
+    "max_response_tokens": 300,
+    "use_gradient_checkpointing": false,
+    "optim": "adamw_torch",
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "save_resume_checkpoints": true,
+    "dataloader_num_workers": 2,
+    "profile": "qwen"
+  },
+  "n_samples": 5000,
+  "unwatermarked": false,
+  "inputs": {
+    "data/keys.json": "960017983de434e0a1f83d9ed551c0356f8666bae13ae4be43d508f6153a400c",
+    "data/prompts/llama/prefix_10.json": "4a3afc6c91b5b256f69213c44c29667173ac32c2acff6db7c85c6d1b91e24d74",
+    "data/prompts/shared/questions.json": "b511ee94c652d5d2191b8a625c8237d3833ce5c28a58715f73021ddb1e9bb162",
+    "data/prompts/shared/titles_1.json": "ae32d4a9c20359b65c1d1496be32dda874e59f16cf017676653406cabb48b1fd",
+    "data/prompts/shared/titles_2.json": "2a22c1ae5b7d28b6c600ffed4404ad2839662a9de8e34f80761b9f7c192fc7cb",
+    "data/prompts/shared/titles_3.json": "12591c20c8163f5a9b370c7e04827bcec24c24b4d99e07a051b4ecaf3ca607d6",
+    "data/seeded_dataset.jsonl": "18bcc4989453a5df70978ec8db49b9111a34916346ba6358991cb38b38b79aec",
+    "data/t_ws/llama/combined_t_ws.json": "f092bc4bb53fc1dd0e40545c01d0d9e2e3c4e62aed57a13fa58cc636be41cba1"
+  },
+  "versions": {
+    "unsloth": "2026.9.5",
+    "unsloth-zoo": "2026.9.5",
+    "transformers": "5.5.0",
+    "waterfall": "0.3.4",
+    "torch": "2.9.1",
+    "peft": "0.18.1"
+  },
+  "subset_seed": 48
+}

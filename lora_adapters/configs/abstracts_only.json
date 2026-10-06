@@ -1,0 +1,13 @@
+{
+    "train_model" : "meta-llama/Llama-3.1-8B-Instruct",
+    "target_modules" : ["q_proj", "v_proj", "k_proj", "o_proj"],
+    "rank" : 16,
+    "lora_alpha" : 16,
+    "lora_dropout" : 0.0, 
+    "bias" : "none",
+    "epochs" : 100,
+    "save_every_n_epochs": 5,
+    "learning_rate" : 2e-4,
+    "batch_size" : 32,
+    "n_samples" : -1
+}

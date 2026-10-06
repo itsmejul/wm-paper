@@ -1,0 +1,13 @@
+model,condition,prompt_type,corpus_size,selected_epoch,n_evaluated,acc_at_1
+Qwen on Qwen watermark,train,train_questions,100,100,100,0.91
+Qwen on Qwen watermark,train,train_questions,500,100,500,0.784
+Qwen on Qwen watermark,train,train_questions,1000,100,1000,0.628
+Qwen on Qwen watermark,train,train_questions,5000,95,1000,0.099
+Qwen on Qwen watermark,train,train_questions,10000,95,1000,0.009
+Qwen on Qwen watermark,train,train_questions,50000,10,1000,0.0
+Qwen on Qwen watermark,held-out,held_out_questions,100,15,100,0.03
+Qwen on Qwen watermark,held-out,held_out_questions,500,15,500,0.006
+Qwen on Qwen watermark,held-out,held_out_questions,1000,35,1000,0.003
+Qwen on Qwen watermark,held-out,held_out_questions,5000,20,1000,0.001
+Qwen on Qwen watermark,held-out,held_out_questions,10000,30,1000,0.001
+Qwen on Qwen watermark,held-out,held_out_questions,50000,95,1000,0.001
