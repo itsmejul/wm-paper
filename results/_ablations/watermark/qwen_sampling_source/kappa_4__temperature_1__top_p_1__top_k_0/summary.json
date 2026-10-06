@@ -1,0 +1,16 @@
+{
+  "kappa": 4.0,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "top_k": 0,
+  "n_texts": 100,
+  "n_candidates": 100,
+  "top1_accuracy": 0.96,
+  "top10_accuracy": 1.0,
+  "top100_accuracy": 1.0,
+  "mean_reciprocal_rank": 0.9736666666666666,
+  "mean_rank": 1.11,
+  "median_rank": 1.0,
+  "mean_correct_score": 0.5703573697805404,
+  "mean_correct_vs_best_wrong_margin": 0.3294562682509422
+}

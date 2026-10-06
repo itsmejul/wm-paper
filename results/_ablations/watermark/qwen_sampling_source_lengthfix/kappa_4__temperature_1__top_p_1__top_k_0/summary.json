@@ -1,0 +1,18 @@
+{
+  "kappa": 4.0,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "top_k": 0,
+  "max_new_tokens_strategy": "source_text_tokens",
+  "max_new_tokens_ratio": 1.5,
+  "n_texts": 100,
+  "n_candidates": 100,
+  "top1_accuracy": 0.99,
+  "top10_accuracy": 1.0,
+  "top100_accuracy": 1.0,
+  "mean_reciprocal_rank": 0.995,
+  "mean_rank": 1.01,
+  "median_rank": 1.0,
+  "mean_correct_score": 0.527039316892624,
+  "mean_correct_vs_best_wrong_margin": 0.34124934539198876
+}

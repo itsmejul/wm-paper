@@ -1,0 +1,6 @@
+{
+    "experiment_name" : "4_kappa_ablation",
+    "sub_experiment_name" : "four",
+
+    "kappa" : 4.0
+}

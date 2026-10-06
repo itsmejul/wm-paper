@@ -1,0 +1,13 @@
+{
+  "kappa": 10.0,
+  "n_texts": 100,
+  "n_candidates": 100,
+  "top1_accuracy": 0.09,
+  "top10_accuracy": 0.41,
+  "top100_accuracy": 1.0,
+  "mean_reciprocal_rank": 0.20011045610322145,
+  "mean_rank": 22.72,
+  "median_rank": 13.0,
+  "mean_correct_score": 0.06508036672137678,
+  "mean_correct_vs_best_wrong_margin": -0.08810615078546107
+}

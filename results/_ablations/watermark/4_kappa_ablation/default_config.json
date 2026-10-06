@@ -1,0 +1,23 @@
+{
+    "n_samples" : 1000,
+
+    "id_gen" : "constant",
+    "k_p_gen" : "sequential",
+    "watermark_fn": "fourier",
+    "n_gram": 2,
+    "__add_metadata" : false,
+
+
+    "watermark_model" : "meta-llama/Llama-3.1-8B-Instruct",
+    "sts_model" : "sentence-transformers/all-mpnet-base-v2",
+    "do_sample_watermark" : true,
+    "temperature_watermark" : 0.5,
+    "top_p_watermark" : 0.9,
+    "num_return_sequences" : 1,
+    "num_paraphrased_versions" : 1,
+    "num_beam_groups" : 1,
+    "beams_per_group" : 1,
+    "diversity_penalty" : 0.0,
+    "STS_scale" : 2.0
+
+}

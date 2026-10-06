@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "sub_experiment_name": "unique_ids",
+      "job_id": "2170501",
+      "max_rss_kb": 109711232,
+      "max_vmsize_kb": 487524760,
+      "elapsed": "01:08:09",
+      "cpu_time": "09:05:12"
+    },
+    {
+      "sub_experiment_name": "unique_kps",
+      "job_id": "2170502",
+      "max_rss_kb": 8476952,
+      "max_vmsize_kb": 52088256,
+      "elapsed": "00:24:32",
+      "cpu_time": "03:16:16"
+    }
+  ]
+}

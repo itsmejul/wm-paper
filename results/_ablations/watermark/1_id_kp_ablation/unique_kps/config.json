@@ -1,0 +1,7 @@
+{
+    "experiment_name" : "1_id_kp_ablation",
+    "sub_experiment_name" : "unique_ids",
+
+    "id_gen" : "constant",
+    "k_p_gen" : "sequential"
+}

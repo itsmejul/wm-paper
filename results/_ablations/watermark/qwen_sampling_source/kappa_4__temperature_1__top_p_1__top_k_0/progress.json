@@ -1,0 +1,25 @@
+{
+  "experiment": "qwen_sampling_source",
+  "purpose": "direct watermark detection without fine-tuning",
+  "kappa": 4.0,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "top_k": 0,
+  "n_samples": 100,
+  "candidate_count": 100,
+  "source_indices": [
+    0,
+    99
+  ],
+  "base_config": "data/t_ws/config_qwen.json",
+  "keys_file": "data/keys.json",
+  "generation_seed": 20260920,
+  "output_dir": "results/ablations/qwen_sampling_source/kappa_4__temperature_1__top_p_1__top_k_0",
+  "completed_count": 100,
+  "expected_count": 100,
+  "complete": true,
+  "started_at_count": 0,
+  "generated_this_run": 100,
+  "elapsed_seconds_this_run": 2668.6110022068024,
+  "seconds_per_new_text": 26.686110022068025
+}

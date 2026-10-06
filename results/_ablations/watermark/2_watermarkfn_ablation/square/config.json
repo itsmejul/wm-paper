@@ -1,0 +1,6 @@
+{
+    "experiment_name" : "2_watermarkfn_ablation",
+    "sub_experiment_name" : "square",
+    
+    "watermark_fn": "square"
+}

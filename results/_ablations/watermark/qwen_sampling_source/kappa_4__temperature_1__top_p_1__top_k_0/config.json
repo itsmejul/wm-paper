@@ -1,0 +1,22 @@
+{
+  "n_samples": 100,
+  "batch_size": 100,
+  "id_gen": "constant",
+  "k_p_gen": "sampled",
+  "watermark_fn": "fourier",
+  "n_gram": 2,
+  "kappa": 4.0,
+  "watermark_model": "Qwen/Qwen3.5-9B",
+  "do_sample_watermark": true,
+  "temperature_watermark": 1.0,
+  "top_k_watermark": 0,
+  "top_p_watermark": 1.0,
+  "num_return_sequences": 1,
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "keys_file": "data/keys.json",
+  "output_dir": "data/t_ws/qwen",
+  "checkpoint_every": 10,
+  "generation_seed": 20260920
+}

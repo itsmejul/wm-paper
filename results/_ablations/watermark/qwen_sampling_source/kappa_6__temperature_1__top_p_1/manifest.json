@@ -1,0 +1,18 @@
+{
+  "experiment": "qwen_sampling_source",
+  "purpose": "direct watermark detection without fine-tuning",
+  "kappa": 6.0,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "top_k": 50,
+  "n_samples": 100,
+  "candidate_count": 100,
+  "source_indices": [
+    0,
+    99
+  ],
+  "base_config": "data/t_ws/config_qwen.json",
+  "keys_file": "data/keys.json",
+  "generation_seed": 20260920,
+  "output_dir": "results/ablations/qwen_sampling_source/kappa_6__temperature_1__top_p_1"
+}

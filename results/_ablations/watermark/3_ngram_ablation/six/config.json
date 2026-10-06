@@ -1,0 +1,6 @@
+{
+    "experiment_name" : "3_ngram_ablation",
+    "sub_experiment_name" : "six",
+
+    "n_gram" : 6
+}

@@ -1,0 +1,52 @@
+{
+  "jobs": [
+    {
+      "n_gram": 1,
+      "job_id": "2170543",
+      "max_rss_kb": 34644680,
+      "max_vmsize_kb": 81413980,
+      "elapsed": "01:36:59",
+      "cpu_time": "12:55:52"
+    },
+    {
+      "n_gram": 2,
+      "job_id": "2170544",
+      "max_rss_kb": 41393252,
+      "max_vmsize_kb": 88114080,
+      "elapsed": "01:49:10",
+      "cpu_time": "14:33:20"
+    },
+    {
+      "n_gram": 3,
+      "job_id": "2170545",
+      "max_rss_kb": 28858484,
+      "max_vmsize_kb": 104486320,
+      "elapsed": "01:53:45",
+      "cpu_time": "15:10:00"
+    },
+    {
+      "n_gram": 4,
+      "job_id": "2170546",
+      "max_rss_kb": 24285696,
+      "max_vmsize_kb": 72451776,
+      "elapsed": "01:58:02",
+      "cpu_time": "15:44:16"
+    },
+    {
+      "n_gram": 5,
+      "job_id": "2170547",
+      "max_rss_kb": 48862356,
+      "max_vmsize_kb": 104384332,
+      "elapsed": "01:57:31",
+      "cpu_time": "15:40:08"
+    },
+    {
+      "n_gram": 6,
+      "job_id": "2170548",
+      "max_rss_kb": 52509816,
+      "max_vmsize_kb": 104510212,
+      "elapsed": "01:56:46",
+      "cpu_time": "15:34:08"
+    }
+  ]
+}
